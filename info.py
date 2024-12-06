@@ -16,17 +16,17 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20902603'))
 API_HASH = environ.get('API_HASH', '79e5caa103a9e9fb0183390b4800845d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8001090344:AAHQIgA76UDN5bNKWtuLY0DlLnBlYWRzZms')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6072149828').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/IamMrAK_bot") # ADMIN USERNAME
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002467628368').split()]
-MICL = environ.get('MICL', 'https://telegram.me/MrAK_LinkZzz')
-BMICL = environ.get('BMICL', 'https://telegram.me/+P-oPdYbUDWIwNjI9')
-BMCL = environ.get('BMCL', 'https://telegram.me/+skgCIvzceP44NTM1')
-MCL = environ.get('MCL', 'https://telegram.me/+5qxYQpqg8KY2ZmY1')
-MGL = environ.get('MGL', 'https://telegram.me/New_Movies_Request_Group_MrAK')
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6283322330').split()]
+USERNAME = environ.get('USERNAME', "https://telegram.me/Cr3atives_Cortex") # ADMIN USERNAME
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002461284739').split()]
+MICL = environ.get('MICL', 'https://t.me/jeevanmovieschannel')
+BMICL = environ.get('BMICL', '')
+BMCL = environ.get('BMCL', '')
+MCL = environ.get('MCL', '')
+MGL = environ.get('MGL', '')
 BMGL = environ.get('BMGL', 'https://telegram.me/+QAdjuRtIXf0xMDk1')
 ACL = environ.get('ACL', 'https://telegram.me/addlist/YtriDZhDyVViZjY9')
 BACL = environ.get('BACL', 'https://telegram.me/MrAK_AnimeZz')
@@ -44,7 +44,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002376863024'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002400539974'))  
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002351777304'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
