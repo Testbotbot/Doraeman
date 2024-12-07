@@ -60,11 +60,11 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://telegram.me/HowToDownload_Tutorial_MrAK/3")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "")
+SHORTENER_API = environ.get("SHORTENER_API", "bcb93413e5dd9aaf092ab03269420e6f928aae2c")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'publicearn.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "bcb93413e5dd9aaf092ab03269420e6f928aae2c")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'publicearn.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "bcb93413e5dd9aaf092ab03269420e6f928aae2c")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'publicearn.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "600"))
@@ -82,7 +82,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', '')).split()
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/Yva.jpg https://envs.sh/Ron.jpg https://envs.sh/Rop.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', '')).split()
