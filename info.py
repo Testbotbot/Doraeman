@@ -100,7 +100,7 @@ AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 1200))
 IMDB = is_enabled('IMDB', True)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
-IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', '🎥 <b>‣ ᴛɪᴛʟᴇ</b> : <a href="{url}">{title}</a>  
+IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE','🎥 <b>‣ ᴛɪᴛʟᴇ</b> : <a href="{url}">{title}</a>  
 📅 <b>‣ ʏᴇᴀʀ</b> : <a href="{url}/releaseinfo">{year}</a>  
 🗂 <b>‣ ɢᴇɴʀᴇs</b> : {genres}  
 ⏱ <b>‣ ʀᴜɴᴛɪᴍᴇ</b> : {runtime} Minutes  
