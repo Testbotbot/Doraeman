@@ -107,12 +107,22 @@ User - {}"""
 🎁 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
    
     IMDB_TEMPLATE_TXT = """
-<b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
+🎥 <b>‣ ᴛɪᴛʟᴇ</b> : <a href="{url}">{title}</a>  
+📅 <b>‣ ʏᴇᴀʀ</b> : <a href="{url}/releaseinfo">{year}</a>  
+🗂 <b>‣ ɢᴇɴʀᴇs</b> : {genres}  
+⏱ <b>‣ ʀᴜɴᴛɪᴍᴇ</b> : {runtime} Minutes  
+🌐 <b>‣ ʟᴀɴɢᴜᴀɢᴇ</b> : <code>{languages}</code>  
 
-🍿 Title: {title}
-🎃 Genres: {genres}
-📆 Year: {release_date}
-⭐ Rating: {rating} / 10</b>
+📖 <b>‣ sʏɴᴏᴘsɪs</b> : {plot}  
+
+⭐ <b>‣ ʀᴀᴛɪɴɢ</b> : <a href="{url}/ratings">{rating}</a> / 10 (based on {votes} user ratings.)  
+
+🎭 <b>‣ ᴄᴀsᴛ</b> :  
+- {character_1} - {actor_1}  
+- {character_2} - {actor_2}  
+- {character_3} - {actor_3}  
+
+🙋 <b>‣ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ</b> : {message.from_user.mention}
 """
 
     FILE_CAPTION = """<b>{file_name}\n\n「<a href="https://t.me/Tamilrockersmovieschannel">⚜️ 𝐌𝐎𝐕𝐈𝐄 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚜️</a>」</b>"""
