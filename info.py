@@ -100,22 +100,7 @@ AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 1200))
 IMDB = is_enabled('IMDB', True)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
-IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE','🎥 <b>‣ ᴛɪᴛʟᴇ</b> : <a href="{url}">{title}</a>  
-📅 <b>‣ ʏᴇᴀʀ</b> : <a href="{url}/releaseinfo">{year}</a>  
-🗂 <b>‣ ɢᴇɴʀᴇs</b> : {genres}  
-⏱ <b>‣ ʀᴜɴᴛɪᴍᴇ</b> : {runtime} Minutes  
-🌐 <b>‣ ʟᴀɴɢᴜᴀɢᴇ</b> : <code>{languages}</code>  
-
-📖 <b>‣ sʏɴᴏᴘsɪs</b> : {plot}  
-
-⭐ <b>‣ ʀᴀᴛɪɴɢ</b> : <a href="{url}/ratings">{rating}</a> / 10 (based on {votes} user ratings.)  
-
-🎭 <b>‣ ᴄᴀsᴛ</b> :  
-- {character_1} - {actor_1}  
-- {character_2} - {actor_2}  
-- {character_3} - {actor_3}  
-
-🙋 <b>‣ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ</b> : {message.from_user.mention}')
+IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', True)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', True)
 SPELL_CHECK = is_enabled('SPELL_CHECK', True)
